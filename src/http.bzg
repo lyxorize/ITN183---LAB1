@@ -49,7 +49,7 @@ while (1) {
             BODY = "<!DOCTYPE html><html><head><title>BSL Server - Home</title></head>"
                 + "<body style='font-family:sans-serif;'>"
                 + "<h1 style='color:#0f766e;'>Welcome, fellow Bonezegei-ers!</h1>"
-                + "<p>If you can read this then everything might be working.'/'</p>"
+                + "<p>If you can read this then everything might be working.</p>"
                 + "</body></html>";
             HTTP = "HTTP/1.1 200 OK\r\n"
                 + "Content-Type: text/html\r\n"
@@ -69,7 +69,7 @@ while (1) {
             BODY = "<!DOCTYPE html><html><head><title>404 Not Found</title></head>"
                 + "<body style='font-family:sans-serif;'>"
                 + "<h1 style='color:#e11d48;'>404 - Page Not Found</h1>"
-                + "<p>The requested route does not exist on this BSL Server.</p>"
+                + "<p>That don't exist 'round here.</p>"
                 + "</body></html>";
             HTTP = "HTTP/1.1 404 Not Found\r\n"
                 + "Content-Type: text/html\r\n"
